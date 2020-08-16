@@ -97,11 +97,18 @@ int main(int argc, char* argv[])
                 MPI_Recv(list+(n/numprocs)*myid, n/numprocs*sizeof(object), MPI_BYTE, i, i, MPI_COMM_WORLD, &stat);
             }
         }
+        for(int i = 0; i < numprocs; i++)
+            MPI_Bcast(list+(n/numprocs)*i, n/numprocs*sizeof(object), MPI_BYTE, i, MPI_COMM_WORLD);
+        
     }
 
     MPI_Barrier(MPI_COMM_WORLD);
 
     if(myid == 0){
+
+        end = MPI_Wtime();
+        printf("并行时间:%f\n", end - start);
+
         FILE *fp = fopen("px.txt", "w");
         for(int i = 0; i < n; i++){
             fprintf(fp, "%f\n", list[i].px);
@@ -116,4 +123,5 @@ int main(int argc, char* argv[])
     }
 
     free(list);
+    MPI_Finalize();
 }

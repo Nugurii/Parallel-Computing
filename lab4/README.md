@@ -8,7 +8,7 @@
 
 <font face="Consolas">
 
-利用MPI实现并行排序算法
+利用MPI实现并行排序算法PSRS
 
 </font>
 
