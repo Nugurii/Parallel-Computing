@@ -82,5 +82,5 @@
 
 ## 4. 记录时间
 
-`MPI_Wtime()` ✔
-`clock()` ✘
+`MPI_Wtime()` ✔<br>
+`clock()` ❌
