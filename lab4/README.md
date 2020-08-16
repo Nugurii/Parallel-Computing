@@ -16,7 +16,7 @@
 
 <font face="Consolas">
 
-<table style="word-break:break-all;">
+<table width="100%">
     <tr>
         <th>操作系统</th>
         <th>编译器</th>
@@ -204,9 +204,9 @@ MPI_Gatherv(a3, totalSize, MPI_INT, a, listSize, recvPos, MPI_INT, 0, MPI_COMM_W
 
 <font face="Consolas">
 
-<center><font size=2>运行时间(s)</font></center>
+<p align="center"><font size=2>运行时间(s)</font></p>
 
-<table style="word-break:break-all;">
+<table width="100%">
     <tr>
         <th width="20%">规模/线程数</th>
         <th width="20%">1</th>
@@ -239,9 +239,9 @@ MPI_Gatherv(a3, totalSize, MPI_INT, a, listSize, recvPos, MPI_INT, 0, MPI_COMM_W
 
 <br>
 
-<center><font size=2>加速比</font></center>
+<p align="center"><font size=2>加速比</font></p>
 
-<table style="word-break:break-all;">
+<table width="100%">
     <tr>
         <th width="20%">规模/线程数</th>
         <th width="20%">1</th>

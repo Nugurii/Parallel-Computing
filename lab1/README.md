@@ -29,7 +29,7 @@
 
 <font face="Consolas">
 
-<table style="word-break:break-all;">
+<table width="100%">
     <tr>
         <th>操作系统</th>
         <th>编译器</th>
@@ -166,9 +166,9 @@ for(int i = 0; i <= n; i++){
 
 <font face="Consolas">
 
-<center><font size=2>求素数个数 MPI 运行时间(s)</font></center>
+<p align="center"><font size=2>求素数个数 MPI 运行时间(s)</font></p>
 
-<table style="word-break:break-all;">
+<table width="100%">
     <tr>
         <th>规模/线程数</th>
         <th>1</th>
@@ -213,9 +213,9 @@ for(int i = 0; i <= n; i++){
     </tr>
 </table>
 
-<center><font size=2>求素数个数 MPI 加速比</font></center>
+<p align="center"><font size=2>求素数个数 MPI 加速比</font></p>
 
-<table style="word-break:break-all;">
+<table width="100%">
     <tr>
         <th>规模/线程数</th>
         <th>1</th>
@@ -260,9 +260,9 @@ for(int i = 0; i <= n; i++){
     </tr>
 </table>
 
-<center><font size=2>求PI MPI 运行时间(s)</font></center>
+<p align="center"><font size=2>求PI MPI 运行时间(s)</font></p>
 
-<table style="word-break:break-all;">
+<table width="100%">
     <tr>
         <th>规模/线程数</th>
         <th>1</th>
@@ -314,9 +314,9 @@ for(int i = 0; i <= n; i++){
     </tr>
 </table>
 
-<center><font size=2>求PI MPI 加速比</font></center>
+<p align="center"><font size=2>求PI MPI 加速比</font></p>
 
-<table style="word-break:break-all;">
+<table width="100%">
     <tr>
         <th>规模/线程数</th>
         <th>1</th>

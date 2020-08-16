@@ -31,7 +31,7 @@
 
 <font face="Consolas">
 
-<table style="word-break:break-all;">
+<table width="100%">
     <tr>
         <th>操作系统</th>
         <th>编译器</th>
@@ -102,7 +102,7 @@ list[k].d = list[k - 1].pos - list[k].pos;
 
 <center><font face="Consolas" size=2>下图是16辆车，4线程的概念模型。n是车辆总数，numprocs是线程数，myid是线程号。</font></center>
 
-<img src="pictures/lab2.png">
+<img src="https://img-blog.csdnimg.cn/20200815231431387.png">
 
 <font face="Consolas">
 
@@ -179,15 +179,15 @@ list[k].d = list[k - 1].pos - list[k].pos;
 
 <table>
     <tr>
-        <td><center><img src="https://img-blog.csdnimg.cn/2020081523143196.PNG">100000辆车 2000周期</center></td>
-        <td><center><img src="https://img-blog.csdnimg.cn/2020081523143192.PNG">500000辆车 500周期</center></td>
-        <td><center><img src="https://img-blog.csdnimg.cn/20200815231431127.PNG">1000000辆车 300周期</center></td>
+        <td><p align="center"><img src="https://img-blog.csdnimg.cn/2020081523143196.PNG">100000辆车 2000周期</p></td>
+        <td><p align="center"><img src="https://img-blog.csdnimg.cn/2020081523143192.PNG">500000辆车 500周期</p></td>
+        <td><p align="center"><img src="https://img-blog.csdnimg.cn/20200815231431127.PNG">1000000辆车 300周期</p></td>
     </tr>
 </table>
 
-<center><font size=2>运行时间(s)</font></center>
+<p align="center"><font size=2>运行时间(s)</font></p>
 
-<table style="word-break:break-all;">
+<table width="100%">
     <tr>
         <th>规模/线程数</th>
         <th>1</th>
@@ -220,9 +220,9 @@ list[k].d = list[k - 1].pos - list[k].pos;
 
 <br>
 
-<center><font size=2>加速比</font></center>
+<p align="center"><font size=2>加速比</font></p>
 
-<table style="word-break:break-all;">
+<table width="100%">
     <tr>
         <th>规模/线程数</th>
         <th>1</th>

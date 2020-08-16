@@ -34,7 +34,7 @@ N体问题是指找出已知初始位置、速度和质量的多个物体在经�
 
 <font face="Consolas">
 
-<table style="word-break:break-all;">
+<table width="100%">
     <tr>
         <th>操作系统</th>
         <th>编译器</th>
@@ -209,21 +209,21 @@ for(int j = 0; j < t; j++){
 
 <table align="center">
     <tr>
-        <td><center><img src="https://img-blog.csdnimg.cn/20200815235751793.PNG">N=64 初始状态</center></td>
-        <td><center><img src="https://img-blog.csdnimg.cn/20200815235751752.PNG">N=64 1000周期</center></td>
-        <td><center><img src="https://img-blog.csdnimg.cn/20200815235751762.PNG">N=64 2000周期</center></td>
+        <td><p align="center"><img src="https://img-blog.csdnimg.cn/20200815235751793.PNG">N=64 初始状态</p></td>
+        <td><p align="center"><img src="https://img-blog.csdnimg.cn/20200815235751752.PNG">N=64 1000周期</p></td>
+        <td><p align="center"><img src="https://img-blog.csdnimg.cn/20200815235751762.PNG">N=64 2000周期</p></td>
     </tr>
 </table>
 
 <table align="center">
     <tr>
-        <td><center><img src="https://img-blog.csdnimg.cn/20200816000006749.PNG">N=256 初始状态</center></td>
-        <td><center><img src="https://img-blog.csdnimg.cn/20200816000006733.PNG">N=256 1000周期</center></td>
-        <td><center><img src="https://img-blog.csdnimg.cn/20200816000006759.PNG">N=256 2000周期</center></td>
+        <td><p align="center"><img src="https://img-blog.csdnimg.cn/20200816000006749.PNG">N=256 初始状态</p></td>
+        <td><p align="center"><img src="https://img-blog.csdnimg.cn/20200816000006733.PNG">N=256 1000周期</p></td>
+        <td><p align="center"><img src="https://img-blog.csdnimg.cn/20200816000006759.PNG">N=256 2000周期</p></td>
     </tr>
 </table>
 
-<table style="word-break:break-all;">
+<table width="100%">
     <tr>
         <th>规模/线程数/运行时间(s)</th>
         <th>1</th>
@@ -251,7 +251,7 @@ for(int j = 0; j < t; j++){
     </tr>
 </table>
 
-<table style="word-break:break-all;">
+<table width="100%">
     <tr>
         <th>规模/线程数/加速比</th>
         <th>1</th>
