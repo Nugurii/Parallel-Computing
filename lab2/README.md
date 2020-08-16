@@ -1,6 +1,6 @@
 # <center><font face="Consolas" size=7>lab2</font></center>
 
-<p align="right"><font face="Consolas">韩佳乐 PB16051152</font></p>
+<div align="right"><font face="Consolas">韩佳乐 PB16051152</font></div>
 
 ***
 
@@ -179,13 +179,13 @@ list[k].d = list[k - 1].pos - list[k].pos;
 
 <table>
     <tr>
-        <td><p align="center"><img src="https://img-blog.csdnimg.cn/2020081523143196.PNG">100000辆车 2000周期</p></td>
-        <td><p align="center"><img src="https://img-blog.csdnimg.cn/2020081523143192.PNG">500000辆车 500周期</p></td>
-        <td><p align="center"><img src="https://img-blog.csdnimg.cn/20200815231431127.PNG">1000000辆车 300周期</p></td>
+        <td><div align="center"><img src="https://img-blog.csdnimg.cn/2020081523143196.PNG">100000辆车 2000周期</div></td>
+        <td><div align="center"><img src="https://img-blog.csdnimg.cn/2020081523143192.PNG">500000辆车 500周期</div></td>
+        <td><div align="center"><img src="https://img-blog.csdnimg.cn/20200815231431127.PNG">1000000辆车 300周期</div></td>
     </tr>
 </table>
 
-<p align="center"><font size=2>运行时间(s)</font></p>
+<div align="center"><font size=2>运行时间(s)</font></div>
 
 <table width="100%" align="center">
     <tr>
@@ -218,9 +218,7 @@ list[k].d = list[k - 1].pos - list[k].pos;
     </tr>
 </table>
 
-<br>
-
-<p align="center"><font size=2>加速比</font></p>
+<div align="center"><font size=2>加速比</font></div>
 
 <table width="100%" align="center">
     <tr>

@@ -1,6 +1,6 @@
 # <center><font face="Consolas" size=7>lab3</font></center>
 
-<p align="right"><font face="Consolas">韩佳乐 PB16051152</font></p>
+<div align="right"><font face="Consolas">韩佳乐 PB16051152</font></div>
 
 ***
 
@@ -209,17 +209,17 @@ for(int j = 0; j < t; j++){
 
 <table align="center">
     <tr>
-        <td><p align="center"><img src="https://img-blog.csdnimg.cn/20200815235751793.PNG">N=64 初始状态</p></td>
-        <td><p align="center"><img src="https://img-blog.csdnimg.cn/20200815235751752.PNG">N=64 1000周期</p></td>
-        <td><p align="center"><img src="https://img-blog.csdnimg.cn/20200815235751762.PNG">N=64 2000周期</p></td>
+        <td><div align="center"><img src="https://img-blog.csdnimg.cn/20200815235751793.PNG">N=64 初始状态</div></td>
+        <td><div align="center"><img src="https://img-blog.csdnimg.cn/20200815235751752.PNG">N=64 1000周期</div></td>
+        <td><div align="center"><img src="https://img-blog.csdnimg.cn/20200815235751762.PNG">N=64 2000周期</div></td>
     </tr>
 </table>
 
 <table align="center">
     <tr>
-        <td><p align="center"><img src="https://img-blog.csdnimg.cn/20200816000006749.PNG">N=256 初始状态</p></td>
-        <td><p align="center"><img src="https://img-blog.csdnimg.cn/20200816000006733.PNG">N=256 1000周期</p></td>
-        <td><p align="center"><img src="https://img-blog.csdnimg.cn/20200816000006759.PNG">N=256 2000周期</p></td>
+        <td><div align="center"><img src="https://img-blog.csdnimg.cn/20200816000006749.PNG">N=256 初始状态</div></td>
+        <td><div align="center"><img src="https://img-blog.csdnimg.cn/20200816000006733.PNG">N=256 1000周期</div></td>
+        <td><div align="center"><img src="https://img-blog.csdnimg.cn/20200816000006759.PNG">N=256 2000周期</div></td>
     </tr>
 </table>
 

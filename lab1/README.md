@@ -1,6 +1,6 @@
 # <center><font face="Consolas" size=7>lab1</font></center>
 
-<p align="right"><font face="Consolas">韩佳乐 PB16051152</font></p>
+<div align="right"><font face="Consolas">韩佳乐 PB16051152</font></div>
 
 ***
 
@@ -166,7 +166,7 @@ for(int i = 0; i <= n; i++){
 
 <font face="Consolas">
 
-<p align="center"><font size=2>求素数个数 MPI 运行时间(s)</font></p>
+<div align="center"><font size=2>求素数个数 MPI 运行时间(s)</font></div>
 
 <table width="100%" align="center">
     <tr>
@@ -213,7 +213,7 @@ for(int i = 0; i <= n; i++){
     </tr>
 </table>
 
-<p align="center"><font size=2>求素数个数 MPI 加速比</font></p>
+<div align="center"><font size=2>求素数个数 MPI 加速比</font></div>
 
 <table width="100%" align="center">
     <tr>
@@ -260,8 +260,7 @@ for(int i = 0; i <= n; i++){
     </tr>
 </table>
 
-<p align="center"><font size=2>求PI MPI 运行时间(s)</font></p>
-
+<div align="center"><font size=2>求PI MPI 运行时间(s)</font></div>
 <table width="100%" align="center">
     <tr>
         <th width="20%">规模/线程数</th>
@@ -314,7 +313,7 @@ for(int i = 0; i <= n; i++){
     </tr>
 </table>
 
-<p align="center"><font size=2>求PI MPI 加速比</font></p>
+<div align="center"><font size=2>求PI MPI 加速比</font></div>
 
 <table width="100%" align="center">
     <tr>

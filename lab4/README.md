@@ -1,6 +1,6 @@
 # <center><font face="Consolas" size=7>lab4</font></center>
 
-<p align="right"><font face="Consolas">韩佳乐 PB16051152</font></p>
+<div align="right"><font face="Consolas">韩佳乐 PB16051152</font></div>
 
 ***
 
@@ -204,7 +204,7 @@ MPI_Gatherv(a3, totalSize, MPI_INT, a, listSize, recvPos, MPI_INT, 0, MPI_COMM_W
 
 <font face="Consolas">
 
-<p align="center"><font size=2>运行时间(s)</font></p>
+<div align="center"><font size=2>运行时间(s)</font></div>
 
 <table width="100%" align="center">
     <tr>
@@ -239,7 +239,7 @@ MPI_Gatherv(a3, totalSize, MPI_INT, a, listSize, recvPos, MPI_INT, 0, MPI_COMM_W
 
 <br>
 
-<p align="center"><font size=2>加速比</font></p>
+<div align="center"><font size=2>加速比</font></div>
 
 <table width="100%" align="center">
     <tr>
