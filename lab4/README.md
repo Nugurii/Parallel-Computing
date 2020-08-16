@@ -33,7 +33,7 @@
 
 ## <font face="Consolas" size=5>算法设计与分析</font>
 
-<img src="./picture/1.png">
+<img src="https://img-blog.csdnimg.cn/20200816000851255.png">
 
 ### <font face="Consolas" size=4>均匀划分 & 局部排序</font>
 
@@ -203,10 +203,6 @@ MPI_Gatherv(a3, totalSize, MPI_INT, a, listSize, recvPos, MPI_INT, 0, MPI_COMM_W
 ## <font face="Consolas" size=5>结果统计</font>
 
 <font face="Consolas">
-
-<center><font size=2>规模为64时截图</font></center>
-
-<img src="./picture/64.png">
 
 <center><font size=2>运行时间(s)</font></center>
 

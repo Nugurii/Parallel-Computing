@@ -209,17 +209,17 @@ for(int j = 0; j < t; j++){
 
 <table align="center">
     <tr>
-        <td><center><img src="/lab3/picture/64-初始.png" width="200">N=64 初始状态</center></td>
-        <td><center><img src="./picture/64-1000.png" width="200">N=64 1000周期</center></td>
-        <td><center>![](./picture/64-2000.png)N=64 2000周期</center></td>
+        <td><center><img src="https://img-blog.csdnimg.cn/20200815235751793.PNG">N=64 初始状态</center></td>
+        <td><center><img src="https://img-blog.csdnimg.cn/20200815235751752.PNG">N=64 1000周期</center></td>
+        <td><center><img src="https://img-blog.csdnimg.cn/20200815235751762.PNG">N=64 2000周期</center></td>
     </tr>
 </table>
 
 <table align="center">
     <tr>
-        <td><center><img src="./picture/256-初始.png" width="200">N=256 初始状态</center></td>
-        <td><center><img src="./picture/256-1000.png" width="200">N=256 1000周期</center></td>
-        <td><center><img src="./picture/256-2000.png" width="200">N=256 2000周期</center></td>
+        <td><center><img src="https://img-blog.csdnimg.cn/20200816000006749.PNG">N=256 初始状态</center></td>
+        <td><center><img src="https://img-blog.csdnimg.cn/20200816000006733.PNG">N=256 1000周期</center></td>
+        <td><center><img src="https://img-blog.csdnimg.cn/20200816000006759.PNG">N=256 2000周期</center></td>
     </tr>
 </table>
 

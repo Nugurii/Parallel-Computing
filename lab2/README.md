@@ -177,26 +177,13 @@ list[k].d = list[k - 1].pos - list[k].pos;
 
 <font face="Consolas">
 
-<center>
-<font size=2>规模：100000辆车 2000周期</font>
-<img src="pictures/1.png">
-</center>
-
-<br>
-
-<center>
-<font size=2>规模：500000辆车 500周期</font>
-<img src="pictures/2.png">
-</center>
-
-<br>
-
-<center>
-<font size=2>规模：1000000辆车 300周期</font>
-<img src="pictures/3.png">
-</center>
-
-<br>
+<table>
+    <tr>
+        <td><center><img src="https://img-blog.csdnimg.cn/2020081523143196.PNG">100000辆车 2000周期</center></td>
+        <td><center><img src="https://img-blog.csdnimg.cn/2020081523143192.PNG">500000辆车 500周期</center></td>
+        <td><center><img src="https://img-blog.csdnimg.cn/20200815231431127.PNG">1000000辆车 300周期</center></td>
+    </tr>
+</table>
 
 <center><font size=2>运行时间(s)</font></center>
 
