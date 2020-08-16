@@ -1,4 +1,4 @@
-# <table><td bgcolor="#FF00FF"><center><font face="Consolas" size=7>lab2</font></center></td></table>
+# <center><font face="Consolas" size=7>lab2</font></center>
 
 <p align="right"><font face="Consolas">韩佳乐 PB16051152</font></p>
 
