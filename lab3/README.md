@@ -209,9 +209,9 @@ for(int j = 0; j < t; j++){
 
 <table align="center">
     <tr>
-        <td><center><img src="./picture/64-初始.png" width="200">N=64 初始状态</center></td>
+        <td><center><img src="/lab3/picture/64-初始.png" width="200">N=64 初始状态</center></td>
         <td><center><img src="./picture/64-1000.png" width="200">N=64 1000周期</center></td>
-        <td><center><img src="./picture/64-2000.png" width="200">N=64 2000周期</center></td>
+        <td><center>![](./picture/64-2000.png)N=64 2000周期</center></td>
     </tr>
 </table>
 
