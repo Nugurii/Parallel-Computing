@@ -187,13 +187,13 @@ list[k].d = list[k - 1].pos - list[k].pos;
 
 <p align="center"><font size=2>运行时间(s)</font></p>
 
-<table width="100%">
+<table width="100%" align="center">
     <tr>
-        <th>规模/线程数</th>
-        <th>1</th>
-        <th>2</th>
-        <th>4</th>
-        <th>8</th>
+        <th width="20%">规模/线程数</th>
+        <th width="20%">1</th>
+        <th width="20%">2</th>
+        <th width="20%">4</th>
+        <th width="20%">8</th>
     </tr>
     <tr>
         <td><center>100000辆车 2000周期</center></td>
@@ -222,13 +222,13 @@ list[k].d = list[k - 1].pos - list[k].pos;
 
 <p align="center"><font size=2>加速比</font></p>
 
-<table width="100%">
+<table width="100%" align="center">
     <tr>
-        <th>规模/线程数</th>
-        <th>1</th>
-        <th>2</th>
-        <th>4</th>
-        <th>8</th>
+        <th width="20%">规模/线程数</th>
+        <th width="20%">1</th>
+        <th width="20%">2</th>
+        <th width="20%">4</th>
+        <th width="20%">8</th>
     </tr>
     <tr>
         <td><center>100000辆车 2000周期</center></td>

@@ -206,7 +206,7 @@ MPI_Gatherv(a3, totalSize, MPI_INT, a, listSize, recvPos, MPI_INT, 0, MPI_COMM_W
 
 <p align="center"><font size=2>运行时间(s)</font></p>
 
-<table width="100%">
+<table width="100%" align="center">
     <tr>
         <th width="20%">规模/线程数</th>
         <th width="20%">1</th>
@@ -241,7 +241,7 @@ MPI_Gatherv(a3, totalSize, MPI_INT, a, listSize, recvPos, MPI_INT, 0, MPI_COMM_W
 
 <p align="center"><font size=2>加速比</font></p>
 
-<table width="100%">
+<table width="100%" align="center">
     <tr>
         <th width="20%">规模/线程数</th>
         <th width="20%">1</th>

@@ -168,13 +168,13 @@ for(int i = 0; i <= n; i++){
 
 <p align="center"><font size=2>求素数个数 MPI 运行时间(s)</font></p>
 
-<table width="100%">
+<table width="100%" align="center">
     <tr>
-        <th>规模/线程数</th>
-        <th>1</th>
-        <th>2</th>
-        <th>4</th>
-        <th>8</th>
+        <th width="20%">规模/线程数</th>
+        <th width="20%">1</th>
+        <th width="20%">2</th>
+        <th width="20%">4</th>
+        <th width="20%">8</th>
     </tr>
     <tr>
         <td><center>1000</center></td>
@@ -215,13 +215,13 @@ for(int i = 0; i <= n; i++){
 
 <p align="center"><font size=2>求素数个数 MPI 加速比</font></p>
 
-<table width="100%">
+<table width="100%" align="center">
     <tr>
-        <th>规模/线程数</th>
-        <th>1</th>
-        <th>2</th>
-        <th>4</th>
-        <th>8</th>
+        <th width="20%">规模/线程数</th>
+        <th width="20%">1</th>
+        <th width="20%">2</th>
+        <th width="20%">4</th>
+        <th width="20%">8</th>
     </tr>
     <tr>
         <td><center>1000</center></td>
@@ -262,13 +262,13 @@ for(int i = 0; i <= n; i++){
 
 <p align="center"><font size=2>求PI MPI 运行时间(s)</font></p>
 
-<table width="100%">
+<table width="100%" align="center">
     <tr>
-        <th>规模/线程数</th>
-        <th>1</th>
-        <th>2</th>
-        <th>4</th>
-        <th>8</th>
+        <th width="20%">规模/线程数</th>
+        <th width="20%">1</th>
+        <th width="20%">2</th>
+        <th width="20%">4</th>
+        <th width="20%">8</th>
     </tr>
     <tr>
         <td><center>10000</center></td>
@@ -316,13 +316,13 @@ for(int i = 0; i <= n; i++){
 
 <p align="center"><font size=2>求PI MPI 加速比</font></p>
 
-<table width="100%">
+<table width="100%" align="center">
     <tr>
-        <th>规模/线程数</th>
-        <th>1</th>
-        <th>2</th>
-        <th>4</th>
-        <th>8</th>
+        <th width="20%">规模/线程数</th>
+        <th width="20%">1</th>
+        <th width="20%">2</th>
+        <th width="20%">4</th>
+        <th width="20%">8</th>
     </tr>
     <tr>
         <td><center>10000</center></td>

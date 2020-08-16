@@ -223,11 +223,11 @@ for(int j = 0; j < t; j++){
     </tr>
 </table>
 
-<table width="100%">
+<table width="100%" align="center">
     <tr>
-        <th>规模/线程数/运行时间(s)</th>
-        <th>1</th>
-        <th>2</th>
+        <th width="40%">规模/线程数/运行时间(s)</th>
+        <th width="30%">1</th>
+        <th width="30%">2</th>
     </tr>
     <tr>
         <td><center>N=64 1000周期</center></td>
@@ -251,11 +251,11 @@ for(int j = 0; j < t; j++){
     </tr>
 </table>
 
-<table width="100%">
+<table width="100%" align="center">
     <tr>
-        <th>规模/线程数/加速比</th>
-        <th>1</th>
-        <th>2</th>
+        <th width="40%">规模/线程数/加速比</th>
+        <th width="30%">1</th>
+        <th width="30%">2</th>
     </tr>
     <tr>
         <td><center>N=64 1000周期</center></td>
