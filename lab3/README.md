@@ -79,13 +79,6 @@ void compute_force(object *list, int size, int i)
         if(d < 2*R) d = 2*R;
         list[i].ax += G*M*dx/pow(d, 3);
         list[i].ay += G*M*dy/pow(d, 3);
-        if(k == i) continue;
-        double dx = list[k].px - list[i].px;
-        double dy = list[k].py - list[i].py;
-        double d = sqrt(dx*dx + dy*dy);
-        if(d < 2*R) d = 2*R;
-        list[i].ax += G*M*dx/pow(d, 3);
-        list[i].ay += G*M*dy/pow(d, 3);
     }
 }
 ```
