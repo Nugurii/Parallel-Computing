@@ -1,12 +1,10 @@
-# <center><font face="Consolas" size=7>lab3</font></center>
+# lab3
 
-<div align="right"><font face="Consolas">韩佳乐 PB16051152</font></div>
+<div align="right">韩佳乐 PB16051152</div>
 
 ***
 
-## <font face="Consolas" size=5>实验题目</font>
-
-<font face="Consolas">
+## 实验题目
 
 1. 题目：
 利用MPI解决N体问题
@@ -24,15 +22,11 @@ N体问题是指找出已知初始位置、速度和质量的多个物体在经�
       * compute force(): 计算每个小球受到的作用力
       * compute velocities(): 计算每个小球的速度
       * compute positions(): 计算每个小球的位置
-
+  
       典型的程序中，这三个函数应该是依次调用的关系。如果你的方法中不实现这三个函数，应当在报告中明确说明，并解释你的方法为什么不需要上述函数的实现。
    3. 报告中需要有 N=64 和 N=256 的情况下通过调整并行度计算的 程序执行时间和加速比
 
-</font>
-
-## <font face="Consolas" size=5>实验环境</font>
-
-<font face="Consolas">
+## 实验环境
 
 <table width="100%">
     <tr>
@@ -47,27 +41,17 @@ N体问题是指找出已知初始位置、速度和质量的多个物体在经�
     </tr>
 </table>
 
-</font>
+## 算法设计与分析
 
-## <font face="Consolas" size=5>算法设计与分析</font>
-
-### <font face="Consolas" size=4>初始化条件</font>
-
-<font face="Consolas">
+### 初始化条件
 
 初始情况下，N个小球等间隔分布在一个正方形的二维空间中，小球在运动时没有范围限制。每个小球间会且只会受到其他小球的引力作用。小球可以看成质点。小球间的初始间隔为1cm
 
-</font>
-
-### <font face="Consolas" size=4>小球结构体</font>
-
-<font face="Consolas">
+### 小球结构体
 
 1. px和py为位置
 2. ax和ay为加速度的水平和竖直分量
 3. vx和vy为速度的水平和竖直分量
-
-</font>
 
 ```c
 typedef struct object
@@ -78,13 +62,9 @@ typedef struct object
 }object;
 ```
 
-### <font face="Consolas" size=4>计算作用力(加速度)</font>
-
-<font face="Consolas">
+### 计算作用力(加速度)
 
 d为两球间距离。R为小球半径，d的最小值为2R。
-
-</font>
 
 ```c
 void compute_force(object *list, int size, int i)
@@ -99,17 +79,20 @@ void compute_force(object *list, int size, int i)
         if(d < 2*R) d = 2*R;
         list[i].ax += G*M*dx/pow(d, 3);
         list[i].ay += G*M*dy/pow(d, 3);
+        if(k == i) continue;
+        double dx = list[k].px - list[i].px;
+        double dy = list[k].py - list[i].py;
+        double d = sqrt(dx*dx + dy*dy);
+        if(d < 2*R) d = 2*R;
+        list[i].ax += G*M*dx/pow(d, 3);
+        list[i].ay += G*M*dy/pow(d, 3);
     }
 }
 ```
 
-### <font face="Consolas" size=4>计算速度</font>
-
-<font face="Consolas">
+### 计算速度
 
 delta_t是时间间隔，设置为0.001。理论上，该值越小，计算越精确。
-
-</font>
 
 ```c
 void compute_velocity(object *list, int i)
@@ -119,13 +102,9 @@ void compute_velocity(object *list, int i)
 }
 ```
 
-### <font face="Consolas" size=4>计算位置</font>
-
-<font face="Consolas">
+### 计算位置
 
 delta_t是时间间隔，设置为0.001。理论上，该值越小，计算越精确。
-
-</font>
 
 ```c
 void compute_position(object *list, int i)
@@ -135,9 +114,7 @@ void compute_position(object *list, int i)
 }
 ```
 
-### <font face="Consolas" size=4>并行设计</font>
-
-<font face="Consolas">
+### 并行设计
 
 1. 初始化MPI环境，获取并行环境参数(总线程数、本地进程编号等)。
 
@@ -175,16 +152,10 @@ void compute_position(object *list, int i)
     }
     ```
 
-</font>
-
-### <font face="Consolas" size=4>核心循环</font>
-
-<font face="Consolas">
+### 核心循环
 
 1. 由于计算加速度时需要使用位置信息，所以更新加速度时不能同时更新位置信息，需要放在不同的循环中。
 2. 每个进程需要进程间通信以获取计算所需的位置信息。
-
-</font>
 
 ```c
 for(int j = 0; j < t; j++){
@@ -203,9 +174,7 @@ for(int j = 0; j < t; j++){
 }
 ```
 
-## <font face="Consolas" size=5>结果统计</font>
-
-<font face="Consolas">
+## 结果统计
 
 <table align="center">
     <tr>
@@ -223,7 +192,7 @@ for(int j = 0; j < t; j++){
     </tr>
 </table>
 
-<table width="100%" align="center">
+<table align="center">
     <tr>
         <th width="40%">规模/线程数/运行时间(s)</th>
         <th width="30%">1</th>
@@ -251,7 +220,7 @@ for(int j = 0; j < t; j++){
     </tr>
 </table>
 
-<table width="100%" align="center">
+<table align="center">
     <tr>
         <th width="40%">规模/线程数/加速比</th>
         <th width="30%">1</th>
@@ -279,13 +248,7 @@ for(int j = 0; j < t; j++){
     </tr>
 </table>
 
-</font>
-
-## <font face="Consolas" size=5>分析与总结</font>
-
-<font face="Consolas">
+## 分析与总结
 
 1. 实验中没有4线程和8线程的数据，主要是因为实验时发现这两种情况下运行时间非常久，严重不符合预期。至于原因，暂未找到。
 2. 时间间隔delta_t表示每个周期的间隔，其值会影响小球分布形状。当delta_t=0.001时，小球分布图如上图所示，当delta_t=0.01时，小球分布图更趋于圆形。
-
-</font>
